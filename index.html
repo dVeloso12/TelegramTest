@@ -118,5 +118,13 @@
       document.body.appendChild(script);
 
     </script>
+	<configuration>
+        <system.webServer>
+           <staticContent>
+      
+              <mimeMap fileExtension=".unityweb" mimeType ="TYPE/SUBTYPE" />
+           </staticContent>
+        </system.webServer> 
+    </configuration>
   </body>
 </html>
